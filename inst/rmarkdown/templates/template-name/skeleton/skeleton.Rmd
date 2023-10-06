@@ -1,0 +1,8 @@
+---
+title: "Report Template"
+author: "Insert author name here"
+date: "Insert date here"
+output:
+  word_document: 
+   reference_docx: template_skeleton.docx
+---
