@@ -1,7 +1,7 @@
 ---
 title: "Title of the document"
 author: "`r Sys.info()['user']`"
-date: '`r format(Sys.Date(), "%B %d, %Y")`'
+date: '`r Sys.Date()`'
 toc: TRUE
 output:
   word_document: 
