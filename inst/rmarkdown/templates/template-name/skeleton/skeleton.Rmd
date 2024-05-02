@@ -1,8 +1,22 @@
 ---
-title: "Report Template"
+title: "Full title"
 author: "Insert author name here"
 date: "Insert date here"
 output:
   word_document: 
    reference_docx: template_skeleton.docx
 ---
+# install flextable
+```{r, echo = FALSE}
+library(flextable)
+doc_data <- c("Date:", "Insert date", "Status:","Internal/Draft/Final/Revised", "Checked/Approved", "Insert name")
+doc_data2 <- c("Author:","Insert author", "Version:", "Number", "Short title", "Title")
+
+Document <- data.frame(cbind(doc_data, doc_data2))
+
+```
+
+## Document information
+```{r}
+flextable(Document)
+```

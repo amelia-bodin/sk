@@ -6,3 +6,9 @@ use_rmarkdown_template()
 
 devtools::build()
 devtools::install()
+
+funXY <- function(x){
+  y <- sum(x)/2
+  print("This is the answer", y)
+}
+
