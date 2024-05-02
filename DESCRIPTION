@@ -1,6 +1,6 @@
 Package: statistikkonsulterna
 Title: Templates and base functions for Statistikkonsulterna
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person("Amelia", "Bodin", , "amelia.bodin@statistikkonsulterna.se", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
