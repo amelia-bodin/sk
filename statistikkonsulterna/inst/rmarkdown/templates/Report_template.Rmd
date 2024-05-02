@@ -1,0 +1,10 @@
+---
+title: "Report Template"
+author: rmarkdown::metadata$author
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output: word_document
+---
+
+### Report Template
+
+## Table of contents

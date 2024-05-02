@@ -1,0 +1,10 @@
+---
+title: "Full title"
+author: "Insert author name here"
+date: "Insert date here"
+toc: TRUE
+output:
+  word_document: 
+   reference_docx: template_skeleton.docx
+---
+
