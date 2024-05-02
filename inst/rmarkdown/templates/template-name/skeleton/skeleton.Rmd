@@ -1,6 +1,6 @@
 ---
 title: "Title of the document"
-author: 'rmarkdown::metadata$author'
+author: "`r Sys.info()['user']`"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 toc: TRUE
 output:
