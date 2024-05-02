@@ -1,0 +1,10 @@
+---
+title: "Title of the document"
+author: rmarkdown::metadata$author
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+toc: TRUE
+output:
+  word_document: 
+   reference_docx: template_skeleton.docx
+---
+

@@ -1,0 +1,4 @@
+name: Report Template
+description: >
+   This template is used for creating statistical reports.
+create_dir: FALSE
